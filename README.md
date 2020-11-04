@@ -35,6 +35,12 @@ Farmers utilize their intuition to decide when a certain action is required to b
 
 #### _Visual representation of the solution._
 
+![Example Setup](Assets/normal.png)
+
+![Home/Small Scale Setup](Assets/home.png)
+
+![Industrialized](Assets/ind.png)
+
 ```mermaid
 erDiagram
     Stremsheets }|..|{ Kura : Internet
@@ -171,7 +177,7 @@ docker run -d -p 8080:8080 -p 1883:1883 -t eclipse/kura
    #Note: if you want to run this on the same machine remeber to change the host port for ports 8080 & 1883
    ```
 
-   ​
+   
 
 5. **(OPTIONAL) - For Users running entire stack on one machine**
 
@@ -215,15 +221,15 @@ docker run -d -p 8080:8080 -p 1883:1883 -t eclipse/kura
 
    - Install/Download dependencies (Tools > Manage libraries) or (Tools > Board > BoardManager)
 
-     ​ **1) NodeMCU library:** https://arduino.esp8266.com/stable/package_esp8266com_index.json
+      **1) NodeMCU library:** https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-     ​ **2) PubSubClient:** https://github.com/knolleary/pubsubclient
+      **2) PubSubClient:** https://github.com/knolleary/pubsubclient
 
-     ​ **3) Arduino_JSON:** https://arduinojson.org/
+      **3) Arduino_JSON:** https://arduinojson.org/
 
-     ​ **4) Adafruit Unified Sensor Driver:** https://github.com/adafruit/Adafruit_Sensor
+      **4) Adafruit Unified Sensor Driver:** https://github.com/adafruit/Adafruit_Sensor
 
-     ​ **5) DHT sensor library:** https://github.com/adafruit/DHT-sensor-library
+      **5) DHT sensor library:** https://github.com/adafruit/DHT-sensor-library
 
    - Edit the configuration in the .h file and upload to the NodeMCU
 
