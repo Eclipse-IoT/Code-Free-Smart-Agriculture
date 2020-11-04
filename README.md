@@ -204,7 +204,7 @@ Ideally this stack will be deployed on different machines
 
    Networks > Add network > set Name > set Driver to Bridge > Create Network
 
-   ![image-20201028122536448](/home/greg/Projects/EclipseFoundation/PlantManagement/Assets/image-20201028122536448.png)
+   ![image-20201028122536448](Assets/image-20201028122536448.png)
 
    
 
